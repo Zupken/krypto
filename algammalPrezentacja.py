@@ -75,7 +75,7 @@ Nadawca = Nadawca()
 Odbiorca = Odbiorca()
 i=1
 for c in wiadomosc:
-    print("Litera numer ",i, "czyli litera: ",c)
+    print("Litera numer ",i)
     Nadawca.krok_zerowy(c)
     Odbiorca.krok_pierwszy()
     Odbiorca.krok_drugi()
